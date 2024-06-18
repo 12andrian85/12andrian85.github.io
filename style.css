@@ -1,0 +1,29 @@
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #eee;
+	color: #444;
+}
+
+h1 {
+	text-align: center;
+}
+
+li {
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+a {
+	display: block;
+	padding: 20px 50px;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #ddd;
+}
