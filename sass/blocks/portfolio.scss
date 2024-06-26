@@ -1,5 +1,6 @@
 .portfolio {
-    background-image: url("/public/icons/subtle-prism_bg.svg");
+    background-image: url("http:12andrian85.github.io/portfolio/public/icons/subtle-prism_bg.svg");
+
     &__title {
         background-color: $dark;
         color: $white;
@@ -26,7 +27,7 @@
         .card-img--ecomert {
             width: 10rem;
         }
-        
+
         .card-img--medical-landing {
             width: 5rem;
             // margin-right: 1rem;
@@ -39,9 +40,11 @@
             overflow: hidden;
 
         }
-        .card-title{
+
+        .card-title {
             font-weight: 600;
         }
+
         .btn-danger {
             position: relative;
             transition: 0.4s;
