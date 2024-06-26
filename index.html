@@ -23,16 +23,16 @@
 </head>
 
 <body class="bg-gray-600">
-	<div class="container px-0">
+	<div class="container-fluid px-0">
 		<!--header-->
 		<header class="header">
-			<div class="container ">
+			<div class="container">
 				<div class="dropdown">
 					<button class="btn btn-dropdown p-0 dropdown-toggle" type="button" data-bs-toggle="dropdown"
 						aria-expanded="false">
-						<img src="/public/img/burger_icon.svg" alt="">
+						<img src="/public/icons/burger_icon.svg" alt="">
 					</button>
-					<ul class="dropdown-menu rounded-3 bg-primary">
+					<ul class="dropdown-menu mt-3 rounded-3 bg-primary">
 						<li><a class="dropdown-item" href="#">About Me</a></li>
 						<li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
 						<li><a class="dropdown-item" href="#footer">Contact</a></li>
@@ -88,86 +88,126 @@
 				</div>
 			</section>
 			<!--Portfolio-->
-			<section class="portfolio overflow-hidden bg-danger" id="portfolio">
-				<h2 class="portfolio__title text-center">My <span class="fw-bold">portfolio</span></h2>
-				<div class="row row-cols-1 gx-0 row-cols-md-3">
-					<!--card hamilton-->
-					<div class="col  p-0">
-						<div class="card card-blown bg-white">
-							<div class="">
-								<!-- logo hamilton-->
-								<a class="nav-logo d-lg-flex justify-content-center flex-column text-decoration-none"
-									href="index.html">
-									<img src="public/icons/head-logo.svg" style="height: 55px;" alt="">
-									<div class="d-flex flex-column ms-2">
-										<span class="text-info fs-5 fw-semibold">Hamilton</span>
-										<span class="text-secondary fs-sm">Estate Rental</span>
-									</div>
-								</a>
-							</div>
-							<div class="card-img-overlay ">
-								<a class="btn btn-danger" href="https://12andrian85.github.io/Hamilton">View</a>
-							</div>
-						</div>
-					</div>
-					<!--card hotel-->
-					<div class="col overflow-hidden- p-0">
-						<div class="card" style="background-color: #5B6671FF;">
-							<div class="header-logo text-uppercase d-lg-flex">
-								<a class="d-flex flex-column align-items-center text-white text-decoration-none"
-									href="index.html">
-									<span class="fw-semibold" style="letter-spacing: 4px;">logo hotel</span>
-									<span class="fs-sm">luxury hotel</span>
-								</a>
-							</div>
-							<div class="card-img-overlay">
-								<a class="btn btn-danger" href="https://12andrian85.github.io/hotel">View</a>
+			<div class="container-fluid px-0">
+				<section class="portfolio overflow-hidden" id="portfolio">
+					<h2 class="portfolio__title text-center">My <span class="fw-bold">portfolio</span></h2>
+					<div class="row row-cols-1 gx-0 row-cols-md-3">
+						<!--card cosletdent-->
+						<div class="col  p-0">
+							<div class="card bg-info-">
+								<div class="">
+									<a class="nav-logo d-lg-flex justify-content-center flex-column text-decoration-none"
+										href="index.html">
+										<img src="public/icons/logo-cosletdent.svg" style="height: 55px;" alt="">
+										<div class="d-flex flex-column ms-2">
+										</div>
+									</a>
+								</div>
+								<div class="card-img-overlay ">
+									<a class="btn btn-danger" target="_blank" href="https://cosletdent.md">View</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!--card lex-corp-->
-					<div class="col p-0">
-						<div class="card">
-							<img src="public/img/lex-korp_logo.png" class="card-img " alt="lex-korp">
-							<div class="card-img-overlay">
-								<a class="btn btn-danger" href="https://github.com/12andrian85/lex-korp">View</a>
+						<!--card hamilton-->
+						<div class="col  p-0">
+							<div class="card card-blown">
+								<div class="">
+									<!-- logo hamilton-->
+									<a class="nav-logo d-lg-flex justify-content-center flex-column text-decoration-none"
+										href="index.html">
+										<img src="public/icons/head-logo_hamilton.svg" style="height: 55px;" alt="">
+										<div class="d-flex flex-column ms-2">
+											<span class="text-info fs-5 fw-semibold">Hamilton</span>
+											<span class="text-secondary fs-sm">Estate Rental</span>
+										</div>
+									</a>
+								</div>
+								<div class="card-img-overlay ">
+									<a class="btn btn-danger" target="_blank" href=" https://12andrian85.github.io/hamilton">View</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!--card watch-shop-->
-					<div class="col  p-0">
-						<div class="card">
-							<img src="public/img/watch-shop_logo.png" class="card-img" alt="watch-shop">
-							<div class="card-img-overlay">
-								<a class="btn btn-danger" href="https://github.com/12andrian85/watch-shop">View</a>
+						<!--card hotel-->
+						<div class="col overflow-hidden- p-0">
+							<div class="card" style="background-color: #5B6671FF;">
+								<div class="header-logo text-uppercase d-lg-flex">
+									<a class="d-flex flex-column align-items-center text-white text-decoration-none"
+										href="index.html">
+										<span class="fw-semibold" style="letter-spacing: 4px;">logo hotel</span>
+										<span class="fs-sm">luxury hotel</span>
+									</a>
+								</div>
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/hotel">View</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!--card ecomert-->
-					<div class="col  p-0">
-						<div class="card">
-							<img src="public/icons/ecomert-logo.svg" class="card-img card-img--ecomert" alt="ecomert">
-							<div class="card-img-overlay">
-								<a class="btn btn-danger" href="https://github.com/12andrian85/Hamilton">View</a>
+						<!--card lex-corp-->
+						<div class="col p-0">
+							<div class="card">
+								<img src="public/img/lex-korp_logo.png" class="card-img " alt="lex-korp">
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href=" https://12andrian85.github.io/lex-korp">View</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!--card medical-landing-->
-					<div class="col p-0">
-						<div class="card bg-info">
-							<div class="d-flex">
-								<img src="public/icons/logo_medical_landing.svg" class="card-img" alt="medical-landing">
-								<h2 class="navbar-brand-title">Silicon</h2>
-							</div>
-							<div class="card-img-overlay">
-								<a class="btn btn-danger" href="https://github.com/12andrian85/medical-landing">View</a>
+						<!--card watch-shop-->
+						<div class="col  p-0">
+							<div class="card">
+								<img src="public/img/watch-shop_logo.png" class="card-img" alt="watch-shop">
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/Watch-Shop">View</a>
+								</div>
 							</div>
 						</div>
+						<!--card ecomert-->
+						<div class="col p-0">
+							<div class="card">
+								<img src="public/icons/ecomert-logo.svg" class="card-img card-img--ecomert" alt="ecomert">
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/ecomert">View</a>
+								</div>
+							</div>
+						</div>
+						<!--card medical-landing-->
+						<div class="col p-0">
+							<div class="card">
+								<div class="d-flex justify-content-center align-items-center flex-column">
+									<img src="public/icons/logo_medical_landing.svg" class="card-img card-img--medical-landing" alt="medical-landing">
+									<h2 class="card-title">Medical Landing</h2>
+								</div>
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/medical-landing">View</a>
+								</div>
+							</div>
+						</div>
+						<!--card hypelane-->
+						<div class="col p-0">
+							<div class="card">
+								<div class="d-flex justify-content-center align-items-center flex-column">
+									<img src="public/img/logo-dark-sm.png" class="card-img card-img--medical-landing" alt="medical-landing">
+									<h2 class="card-title">hyperlane</h2>
+								</div>
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/hyper/">View</a>
+								</div>
+							</div>
+						</div>
+						<!--card bingle-->
+						<div class="col p-0">
+							<div class="card">
+								<div class="d-flex justify-content-center align-items-center flex-column">
+									<img src="public/icons/logo_bingle.svg" class="card-img card-img" alt="medical-landing">
+								</div>
+								<div class="card-img-overlay">
+									<a class="btn btn-danger" target="_blank" href="https://12andrian85.github.io/bingle">View</a>
+								</div>
+							</div>
+						</div>
+						
 					</div>
-
-
-				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 		<!-- footer -->
 		<footer class="footer" id="footer">

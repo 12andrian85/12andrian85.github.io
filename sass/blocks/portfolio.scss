@@ -1,4 +1,5 @@
 .portfolio {
+    background-image: url("/public/icons/subtle-prism_bg.svg");
     &__title {
         background-color: $dark;
         color: $white;
@@ -14,6 +15,7 @@
         border-radius: 0;
         height: 14.2rem;
         transition: all 0.3s;
+        background-color: transparent;
 
 
         .card-img {
@@ -24,14 +26,22 @@
         .card-img--ecomert {
             width: 10rem;
         }
+        
+        .card-img--medical-landing {
+            width: 5rem;
+            // margin-right: 1rem;
+        }
 
         .card-img-overlay {
             display: flex;
             align-items: flex-end;
             justify-content: center;
+            overflow: hidden;
 
         }
-
+        .card-title{
+            font-weight: 600;
+        }
         .btn-danger {
             position: relative;
             transition: 0.4s;

@@ -11033,6 +11033,9 @@ textarea.form-control-lg {
     z-index: -1;
   }
 }
+.portfolio {
+  background-image: url("/public/icons/subtle-prism_bg.svg");
+}
 .portfolio__title {
   background-color: black;
   color: #fff;
@@ -11047,6 +11050,7 @@ textarea.form-control-lg {
   border-radius: 0;
   height: 14.2rem;
   transition: all 0.3s;
+  background-color: transparent;
 }
 .portfolio .card .card-img {
   border-radius: 0;
@@ -11055,10 +11059,17 @@ textarea.form-control-lg {
 .portfolio .card .card-img--ecomert {
   width: 10rem;
 }
+.portfolio .card .card-img--medical-landing {
+  width: 5rem;
+}
 .portfolio .card .card-img-overlay {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  overflow: hidden;
+}
+.portfolio .card .card-title {
+  font-weight: 600;
 }
 .portfolio .card .btn-danger {
   position: relative;
