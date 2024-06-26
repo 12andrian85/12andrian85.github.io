@@ -1,0 +1,17 @@
+.header {
+    // padding: 0 10px;
+    height: 3.6rem;
+    background-color: $secondary;
+    display: flex;
+    align-items: center;
+    
+    .dropdown {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .btn::after {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.portfolio {
+    &__title {
+        background-color: $dark;
+        color: $white;
+        padding: 2.8rem 0;
+        margin: 0;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid transparent;
+        border-radius: 0;
+        height: 14.2rem;
+        transition: all 0.3s;
+
+
+        .card-img {
+            border-radius: 0;
+            object-fit: scale-down;
+        }
+
+        .card-img--ecomert {
+            width: 10rem;
+        }
+
+        .card-img-overlay {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+        }
+
+        .btn-danger {
+            position: relative;
+            transition: 0.4s;
+            // letter-spacing: 3px;
+            bottom: -70px;
+        }
+
+    }
+
+    .card:hover {
+        border: 5px solid $dark;
+
+        .btn-danger {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            bottom: 20px;
+        }
+
+    }
+}

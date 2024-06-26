@@ -1,0 +1,60 @@
+// scss-docs-start gray-color-variables
+$gray-100: #f8f9fa;
+$gray-600: #6c757d;
+$gray-900: #000000FF;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start color-variables
+$c-primary: #F1F1F1FF;
+$c-secondary: #1E2039FF;
+$red: #cc0a1e;
+$yellow: #e6ff07;
+$green: #5fc01e;
+$cyan: #1684BBFF;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-color-variables
+$primary: $c-primary;
+$secondary: $c-secondary;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+// scss-docs-end theme-color-variables
+
+// Square radius
+// $border-radius:               0;
+
+// Create your own map
+$custom-colors: (
+  "custom-color": rgb(203, 17, 209)
+);
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+
+// @media (min-width: $width-tablet) {}
+// @media (min-width: $width-desktop) {}
+
+// breackpoints
+$width-mobile: 320px;
+$width-tablet: 768px;
+// $width-desktop: 750px;
+// $width-x-desktop: 750px;
+// $width-xx-desktop: 750px;
+// $width-xxx-desktop: 2560px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 750px,
+  // lg: 960px,
+  // xl: 1140px,
+  // xxl: 1320px
+);
+
+$container-padding-x: 4.5rem;
